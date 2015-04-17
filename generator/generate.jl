@@ -8,23 +8,8 @@ function read_template(filename)
 end
 
 function create_generation_func(record_type::UTF8String, record_args::Array{UTF8String, 1})
-    if record_type == "partitioning_test"
-        template = read_template("partitioning_test.template")
-
-        max_x, min_x, max_y, min_y = map((x) -> int(x), record_args[1:4])
-
-        @eval f(i,x,y) = @printf(STDOUT, $template, i, x, y)
-        gen_func = function (N)
-            for i in 1:N
-                x = min_x + rand() * (max_x - min_x)
-                y = min_y + rand() * (max_y - min_y)
-
-                f(i,x,y)
-            end
-        end
-    elseif record_type == "partitioning_random"
-        template = read_template("partitioning_full.template")
-        #tfmt = "%Y-%m-%dT%H:%M:%S%z"
+    if record_type == "generic"
+        template = read_template("generic.template")
         tfmt = "%a %b %d %H:%M:%S %Y"
 
         @eval f(i32,ui32,f32,vc,ts,x,y) = @printf(STDOUT, $template, i32, ui32, f32, vc, ts, x, y)
@@ -39,20 +24,6 @@ function create_generation_func(record_type::UTF8String, record_args::Array{UTF8
                 y = (180.0 * acos(2.0 * rand() - 1.0) / pi - 90.0)
 
                 f(i32,ui32,f32,vc,ts,x,y)
-            end
-        end
-    elseif record_type == "tweet"
-        template = read_template("tweet.template")
-
-        max_x, min_x, max_y, min_y = map((x) -> int(x), record_args[1:4])
-
-        @eval f(x,y) = @printf(STDOUT, $template, x, y)
-        gen_func = function (N)
-            for i in 1:N
-                x = min_x + rand() * (max_x - min_x)
-                y = min_y + rand() * (max_y - min_y)
-
-                f(x,y)
             end
         end
     end
