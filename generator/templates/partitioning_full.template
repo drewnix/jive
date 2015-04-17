@@ -1,0 +1,1 @@
+{"properties":{"i32":%u,"ui32":%u,"f32":%f,"vc":"%s","ts":"%s"},"type":"Feature","geometry":{"coordinates":[%.15f,%.15f,20],"type":"Point"}}
