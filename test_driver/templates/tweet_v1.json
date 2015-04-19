@@ -1,0 +1,146 @@
+{
+   "possibly_sensitive_editable":true,
+   "entities":{
+      "user_mentions":[
+
+
+      ],
+      "hashtags":[
+
+
+      ],
+      "urls":[
+         {
+            "indices":[
+               73,
+               93
+            ],
+            "url":"http:\/\/t.co\/DXWljkwN",
+            "display_url":"4sq.com\/Jpr1RZ",
+            "expanded_url":"http:\/\/4sq.com\/Jpr1RZ"
+         }
+      ]
+   },
+   "geo":{
+      "type":"Point",
+      "coordinates":[
+         -19.89056626,
+         -43.99645079
+      ]
+   },
+   "text":"Estou em Studio Brialle Cabelo e Est\u00e9tica (Belo Horizonte, Minas Gerais) http:\/\/t.co\/DXWljkwN",
+   "created_at":"Fri May 18 19:20:56 +0000 2012",
+   "place":{
+      "bounding_box":{
+         "type":"Polygon",
+         "coordinates":[
+            [
+               [
+                  -44.062789,
+                  -20.059816
+               ],
+               [
+                  -43.856856,
+                  -20.059816
+               ],
+               [
+                  -43.856856,
+                  -19.777568
+               ],
+               [
+                  -44.062789,
+                  -19.777568
+               ]
+            ]
+         ]
+      },
+      "place_type":"city",
+      "url":"http:\/\/api.twitter.com\/1\/geo\/id\/d9d978b087a92583.json",
+      "country":"Brasil",
+      "attributes":{
+
+
+      },
+      "full_name":"Belo Horizonte, Minas Gerais",
+      "name":"Belo Horizonte",
+      "id":"d9d978b087a92583",
+      "country_code":"BR"
+   },
+   "in_reply_to_status_id_str":null,
+   "coordinates":{
+      "type":"Point",
+      "coordinates":[
+         [
+            [
+               -44.062789,
+               -20.059816
+            ],
+            [
+               -43.856856,
+               -20.059816
+            ],
+            [
+               -43.856856,
+               -19.777568
+            ],
+            [
+               -44.062789,
+               -19.777568
+            ]
+         ]
+      ]
+   },
+   "in_reply_to_status_id":null,
+   "possibly_sensitive":false,
+   "retweeted":false,
+   "in_reply_to_user_id_str":null,
+   "truncated":false,
+   "source":"\u003Ca href=\"http:\/\/foursquare.com\" rel=\"nofollow\"\u003Efoursquare\u003C\/a\u003E",
+   "contributors":null,
+   "in_reply_to_screen_name":null,
+   "favorited":false,
+   "user":{
+      "follow_request_sent":null,
+      "lang":"en",
+      "profile_background_tile":true,
+      "time_zone":"Brasilia",
+      "created_at":"Wed Dec 09 12:11:02 +0000 2009",
+      "verified":false,
+      "profile_sidebar_fill_color":"a2a391",
+      "url":null,
+      "default_profile_image":false,
+      "friends_count":225,
+      "following":null,
+      "favourites_count":0,
+      "profile_sidebar_border_color":"ac0ccc",
+      "description":"",
+      "location":"BH",
+      "screen_name":"ullinoronha",
+      "notifications":null,
+      "profile_use_background_image":true,
+      "profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/127896023\/papel_ulli.jpg",
+      "contributors_enabled":false,
+      "geo_enabled":true,
+      "profile_text_color":"610a61",
+      "listed_count":1,
+      "profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/127896023\/papel_ulli.jpg",
+      "protected":false,
+      "profile_link_color":"e00d7e",
+      "name":"Ulli Noronha",
+      "default_profile":false,
+      "show_all_inline_media":false,
+      "statuses_count":1264,
+      "followers_count":164,
+      "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/1866830654\/image_normal.jpg",
+      "id":95633369,
+      "id_str":"95633369",
+      "is_translator":false,
+      "utc_offset":-10800,
+      "profile_background_color":"241f23",
+      "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/1866830654\/image_normal.jpg"
+   },
+   "retweet_count":0,
+   "in_reply_to_user_id":null,
+   "id":203565854917541888,
+   "id_str":"203565854917541888"
+}
